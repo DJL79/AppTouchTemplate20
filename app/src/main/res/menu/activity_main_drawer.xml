@@ -11,27 +11,31 @@
         <item
             android:id="@+id/nav_ex1"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Example 1" />
+            android:title="page two" />
         <item
             android:id="@+id/nav_ex2"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Example 2" />
+            android:title="page three" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_manage"
-            android:title="About" />
+            android:title="page one" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Social Media">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_facebook"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Facebook" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_instagram"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Instagram" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Twitter" />
         </menu>
     </item>
 

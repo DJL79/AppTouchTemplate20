@@ -1,5 +1,6 @@
 package uk.co.apptouch.apptouchtemplate10;
 
+import android.app.Fragment;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -79,18 +80,21 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        android.app.FragmentManager fragmentManager = getFragmentManager();
 
         if (id == R.id.nav_apptouch) {
-            // Handle the camera action
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new FragmentPageOne()).commit();
         } else if (id == R.id.nav_ex1) {
-
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new FragmentPageTwo()).commit();
         } else if (id == R.id.nav_ex2) {
-
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new FragmentPageThree()).commit();
         } else if (id == R.id.nav_about) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new FragmentPageFour()).commit();
+        } else if (id == R.id.nav_facebook) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_instagram) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_twitter) {
 
         }
 
