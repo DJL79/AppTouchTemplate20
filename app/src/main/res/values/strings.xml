@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">appTouch</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">appTouch</string>
+    <string name="nav_header_subtitle">info@appTouch.co.uk</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
