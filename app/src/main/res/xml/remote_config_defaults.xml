@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>MainPageImage_url</key>
+        <value>https://www.google.com/images/srpr/logo11w.png</value>
+    </entry>
+    <entry>
+        <key>PageTwo_MainText</key>
+        <value>welcome to page two</value>
+    </entry>
+
+
+</defaultsMap>
+    <!-- END xml_defaults -->
